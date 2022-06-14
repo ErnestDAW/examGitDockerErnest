@@ -1,3 +1,4 @@
+// This is a comment
 public class Minimum {
 
 	int[] list;
@@ -8,7 +9,8 @@ public class Minimum {
 		this.list = list;
 	}
 	
-	public static int GetMin(int[] list) {
+	// This is a method
+	public static int GetMin(int[] list) { 
 		int i, min;
 
 		min = list[0];
@@ -20,3 +22,5 @@ public class Minimum {
 		return min;
 	}
 }
+
+
